@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/container_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fragments.Home"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <GridLayout
+        android:id="@+id/itensMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:alignmentMode="alignBounds"
+        android:useDefaultMargins="true"
+        android:columnCount="2">
+    </GridLayout>
+</ScrollView>
+
+<!--android.support.constraint.ConstraintLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:srcCompat="@tools:sample/avatars" />
+</android.support.constraint.ConstraintLayout-->
